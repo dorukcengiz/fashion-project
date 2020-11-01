@@ -1,0 +1,88 @@
+.collections {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    &__left {
+
+
+        &__up {
+            position: relative;
+            padding-bottom: 0.8rem;
+
+
+            &__content {
+                position: absolute;
+                top: 40%;
+                right: 10%;
+                color: $secondary-color;
+
+                h6 {
+                    font-size: 15px;
+
+                }
+
+                p {
+                    font-size: 8px;
+                }
+            }
+
+
+        }
+
+        &__down {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 1rem;
+
+            &__man {
+                position: relative;
+
+                &__content {
+                    position: absolute;
+                    top: 40%;
+                    left: 10%;
+                    color: $secondary-color;
+
+                    h6 {
+                        font-size: 15px;
+                    }
+
+                    p {
+                        font-size: 8px;
+                    }
+                }
+
+
+            }
+
+        }
+    }
+
+    &__right {
+        position: relative;
+        padding: 1rem 1rem;
+
+        &__content {
+            position: absolute;
+            top: 15%;
+            right: 10%;
+            color: $secondary-color;
+
+            h6 {
+                font-size: 15px;
+            }
+
+            p {
+                font-size: 8px;
+            }
+
+        }
+
+
+
+    }
+}

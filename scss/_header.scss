@@ -1,0 +1,52 @@
+.header {
+    background-image: url("../img/header/woman-wearing-pink-collared-half-sleeved-top-1036623.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    &__content {
+        padding: 8rem 3rem;
+
+        &__new {
+            font-size: 0.8rem;
+            color: $blog_primary;
+            margin-bottom: 0.5rem;
+        }
+
+        &__motto {
+            font-size: 3.5rem;
+            font-weight: bold;
+
+        }
+
+        &__info {
+            margin-top: 0.5rem;
+            margin-bottom: 0.7rem;
+            color: $blog_primary;
+        }
+
+        &__button {
+            border: solid 2px $primary-color;
+            border-radius: 1rem;
+            padding: 0.6rem 1.2rem;
+            font-size: 10px;
+            color: #eeeeee;
+            background-color: $primary-color;
+            margin-top: 1rem;
+            transition: all 0.2s ease;
+
+            &:hover {
+                background-color: #f3afae;
+                color: $primary-color;
+                cursor: pointer;
+
+            }
+        }
+
+    }
+
+
+
+
+}

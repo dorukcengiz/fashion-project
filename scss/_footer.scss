@@ -1,0 +1,21 @@
+.footer {
+    text-align: center;
+    color: #fff;
+    background-color: #141414;
+    display: grid;
+    grid-gap: 60px 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(1, 200px);
+    padding: 3rem 1rem;
+    padding-top: 4rem;
+    margin-top: 5rem;
+
+    &__item {
+        ul {
+            li {
+                margin-bottom: 0.3rem;
+                color: #808080;
+            }
+        }
+    }
+}

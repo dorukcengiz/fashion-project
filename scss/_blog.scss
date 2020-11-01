@@ -1,0 +1,64 @@
+.blog {
+    text-align: center;
+    padding: 1rem 1rem;
+
+    &__title {
+        margin-bottom: 2rem;
+        font-size: 21px;
+    }
+
+    &__p {
+        margin-bottom: 2rem;
+        font-size: 12px;
+    }
+
+    &__part {
+        display: grid;
+        grid-gap: 20px 5px;
+
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+        grid-template-rows: repeat(1, 400px);
+        margin: 0 auto;
+        justify-items: center;
+
+        &__item {
+            max-width: 320px;
+            position: relative;
+
+            &__box {
+                position: absolute;
+                left: 50%;
+                top: 60%;
+                transform: translate(-50%, -50%);
+                color: white;
+
+                &__up {
+                    background-color: #000000;
+                    padding: 1rem 1rem;
+                    width: 250px;
+
+                    h6 {
+                        color: $blog-primary;
+                    }
+
+                    p {
+                        font-size: 18px;
+                    }
+
+
+                }
+
+                &__down {
+                    background-color: white;
+                    color: $blog-primary;
+                    padding: 0.7rem 1rem;
+
+                }
+            }
+
+        }
+
+    }
+
+}

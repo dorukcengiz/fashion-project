@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 3rem;
+    border-bottom: 1px solid $blog_primary;
+
+    &__icons {
+        img {
+            width: 1rem;
+            margin-left: 0.5rem;
+
+        }
+    }
+
+    &__logo {
+        h3 {
+            font-size: 25px;
+        }
+    }
+}
